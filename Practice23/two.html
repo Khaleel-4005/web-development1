@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Card</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .container{
+            width :100vw;
+            height :100vh;
+            min-height: 800px;
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(225,12,12,1) 75%, rgba(0,212,255,1) 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width:400px;
+            height: 600px;
+            background-color: whitesmoke;
+            border-radius: 20px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap:25px;
+
+
+        }
+        .card img{
+            width: 100%;
+            height: 30%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+
+
+        }
+        .textBox{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap:15px;
+           width: 85%;
+           text-align: center;
+          
+          
+        }
+        #amountBox{
+            width:80%;
+            height:10%;
+            background-color: #c68b8c;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 15px;
+            /* padding-left: 15px; */
+        }
+
+        #leftBox{
+            width:fit-content;
+            height: 100%;
+            display: flex;
+            gap:15px;
+
+            align-items: center;
+
+
+        }
+        .rightBox{
+
+        }
+
+
+
+
+
+        #activateButton{
+
+            width:80%;
+            height:10%;
+            background-color: rgb(87, 87, 242);
+            border-radius: 10px;
+            box-shadow: 10px 10px;
+        }
+
+        .deativateButton a{
+            text-decoration: none;
+            color:grey;
+            font-weight: bold;
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+          <img src="jrsimg.webp" 
+          />
+        <div class="textBox">
+          <h2>#I'M ....J.A.R.V.I.S....UPDATED 3.0# </h2>
+
+          <p> J.A.R.V.I.S. is an artificial intelligence created by Tony Stark, who later controls his Iron Man and Hulkbuster armor for him. In Avengers: Age of Ultron, after being partially destroyed by Ultron, J.A.R.V.I.S. is given physical form as Vision, physically portrayed by Bettany.  </p>
+        </div>
+
+        <div id="amountBox">
+         <div id="leftBox"></div>
+         <div class="imgBox">
+                  <img src="" />
+
+                  <div id="textAmout"></div>
+                    <p>POWER ACTIVATE</p>
+                    <p>ENERGEY ACTIVATE</p>
+
+
+         </div>
+
+
+
+        </div>
+
+        <div class="rightBox">
+            <a href="">Change</a>
+
+
+        </div>
+
+
+       <button id="activateButton">
+              ACTIVATE JARVIS
+       </button>
+       
+       <div class="deactivateButton">
+            <a href="a">DEACTIVATE JARVIS</a>
+       </div>
+
+
+
+
+        </div>
+    </div>
+    
+</body>
+</html>
